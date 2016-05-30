@@ -2,6 +2,8 @@
 
 Although there are enough resources on the web about Git, I will keep this one for my own reference. Minimal Git version required 1.7.2.
 
+! Since `git command` is just an alias to `git-command`, you can do `man git-command`, e.g. `man git-log` !
+
 ## <a id="toc"></a>TOC
 
   * [Info](#info)

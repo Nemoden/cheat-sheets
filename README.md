@@ -2,9 +2,9 @@ There are best cheat-sheets I could either create by myself or (most of them) ar
 
 ## [bash and zsh](bash-zsh.md)
 ## [unix screen](screen.md) and [tmux](tmux.md)
-## [git](git.md) and [git-extras](git-extras.md)
+## [git](git.md), [git-flow](git-flow.md) and [git-extras](git-extras.md)
 ## [idea](idea.md)
-## [curl](curl.md)
+## [curl](curl.md) and [wget](wget.md)
 ## [google chrome](google-chrome.md)
 
 #### Contribution
