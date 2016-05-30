@@ -1,5 +1,3 @@
-## [Back]()
-
 ## Useful bash / zsh shortcuts
 
 ### Move cursor

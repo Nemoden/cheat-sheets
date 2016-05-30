@@ -1,5 +1,3 @@
-## [Back]()
-
 IntelliJ IDEA Cheatsheet
 ===
 
