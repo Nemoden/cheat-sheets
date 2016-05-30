@@ -4,6 +4,7 @@ There are best cheat-sheets I could either create by myself or (most of them) ar
 ## [unix screen](screen.md) and [tmux](tmux.md)
 ## [git](git.md) and [git-extras](git-extras.md)
 ## [idea](idea.md)
+## [curl](curl.md)
 ## [google chrome](google-chrome.md)
 
 #### Contribution
