@@ -1,10 +1,10 @@
 There are best cheat-sheets I could either create by myself or (most of them) are taken from somewhere.
 
 ## [bash and zsh](bash-zsh.md)
-## [google chrome](google-chrome.md)
 ## [unix screen](screen.md) and [tmux](tmux.md)
 ## [git](git.md) and [git-extras](git-extras.md)
 ## [idea](idea.md)
+## [google chrome](google-chrome.md)
 
 #### Contribution
 
