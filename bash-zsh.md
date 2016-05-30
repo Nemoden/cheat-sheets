@@ -1,4 +1,4 @@
-## [Back](/)
+## [Back]()
 
 ## Useful bash / zsh shortcuts
 

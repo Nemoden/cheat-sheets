@@ -1,4 +1,4 @@
-## [Back](/)
+## [Back]()
 
 IntelliJ IDEA Cheatsheet
 ===
