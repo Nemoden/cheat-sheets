@@ -22,3 +22,5 @@ If you see a lack of something in the cheat sheet, feel free to make your contib
 * [iptables](http://linux.die.net/man/8/iptables)
 * [nginx](http://nginx.org/)
 * [sqlachemy](http://www.sqlalchemy.org/)
+* [docker](https://www.docker.com/)
+* [golang](https://golang.org/)
