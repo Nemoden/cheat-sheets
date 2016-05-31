@@ -1,12 +1,12 @@
 There are best cheat-sheets I could either create by myself or (most of them) are taken from somewhere.
 
-## [bash and zsh](bash-zsh.md)
-## [unix screen](screen.md) and [tmux](tmux.md)
-## [git](git.md), [git-flow](git-flow.md) and [git-extras](git-extras.md)
-## [idea](idea.md)
-## [curl](curl.md) and [wget](wget.md)
-## [strace](strace.md)
-## [google chrome](google-chrome.md)
+## [bash and zsh](src/bash-zsh.md)
+## [unix screen](src/screen.md) and [tmux](src/tmux.md)
+## [git](src/git.md), [git-flow](src/git-flow.md) and [git-extras](src/git-extras.md)
+## [idea](src/idea.md)
+## [curl](src/curl.md) and [wget](src/wget.md)
+## [strace](src/strace.md)
+## [google chrome](src/google-chrome.md)
 
 #### Contribution
 
