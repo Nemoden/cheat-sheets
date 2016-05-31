@@ -33,10 +33,15 @@ Specific traces
 ---
 
 `-e trace=ipc` track communication between processes (IPC)
+
 `-e trace=memory` track memory syscalls
+
 `-e trace=network` track memory syscalls
+
 `-e trace=process` track process calls (like fork, exec)
+
 `-e trace=signal` track process signal handling (like HUP, exit)
+
 `-e trace=file` track file related syscalls
 
 #### Monitoring file activity
