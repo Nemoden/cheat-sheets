@@ -14,3 +14,11 @@ If you would like to contribute to this repo, consider a good cheat should be a 
 For a deeper dive into this software, provide links to a more comprehansive information.
 
 If you see a lack of something in the cheat sheet, feel free to make your contibution.
+
+#### Wanted (mostly for common recipes)
+
+* [sublimetext](https://www.sublimetext.com/)
+* [vim](http://www.vim.org/)
+* [iptables](http://linux.die.net/man/8/iptables)
+* [nginx](http://nginx.org/)
+* [sqlachemy](http://www.sqlalchemy.org/)
