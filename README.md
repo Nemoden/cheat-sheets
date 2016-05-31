@@ -19,6 +19,10 @@ If you see a lack of something in the cheat sheet, feel free to make your contib
 
 * [sublimetext](https://www.sublimetext.com/)
 * [vim](http://www.vim.org/)
+* [awk](http://www.gnu.org/software/gawk/manual/gawk.html) (gawk)
+* [grep](https://www.gnu.org/software/grep/) and [ack](http://beyondgrep.com/)
+* [find](https://en.wikipedia.org/wiki/Find)
+* [ps](https://en.wikipedia.org/wiki/Ps_(Unix))
 * [iptables](http://linux.die.net/man/8/iptables)
 * [nginx](http://nginx.org/)
 * [sqlachemy](http://www.sqlalchemy.org/)
