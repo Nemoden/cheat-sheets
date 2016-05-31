@@ -1,5 +1,5 @@
 strace
-===
+==
 
 `-o` param saves strace output to the file specified
 
@@ -44,7 +44,7 @@ Specific traces
 
 `-e trace=file` track file related syscalls
 
-#### Monitoring file activity
+##### Monitoring file activity
 
     $ strace -e trace=file -p 1234
 
@@ -56,76 +56,76 @@ If you want to track specific paths, use 1 or more times the -P parameter, follo
 
     $ sudo strace -P /etc/cups -p 2261
 
-#### Monitoring the network
+##### Monitoring the network
 
     $ trace -e trace=network
 
-#### Monitoring memory calls
+##### Monitoring memory calls
 
     $ strace -e trace=memory
 
 Handy one-liners
 ---
 
-#### Slow the target command and print details for each syscall:
+##### Slow the target command and print details for each syscall:
 
     $ strace command
 
-#### Slow the target PID and print details for each syscall:
+##### Slow the target PID and print details for each syscall:
 
     $ strace -p PID
 
-#### Slow the target PID and any newly created child process, printing syscall details:
+##### Slow the target PID and any newly created child process, printing syscall details:
 
     $ strace -fp PID
 
-#### Slow the target PID and record syscalls, printing a summary:
+##### Slow the target PID and record syscalls, printing a summary:
 
     $ strace -cp PID
 
-#### Slow the target PID and trace open() syscalls only:
+##### Slow the target PID and trace open() syscalls only:
 
     $ strace -eopen -p PID
 
-#### Slow the target PID and trace open() and stat() syscalls only:
+##### Slow the target PID and trace open() and stat() syscalls only:
 
     $ strace -eopen,stat -p PID
 
-#### Slow the target PID and trace connect() and accept() syscalls only:
+##### Slow the target PID and trace connect() and accept() syscalls only:
 
     $ strace -econnect,accept -p PID
 
-#### Slow the target command and see what other programs it launches (slow them too!):
+##### Slow the target command and see what other programs it launches (slow them too!):
 
     $ strace -qfeexecve command
 
-#### Slow the target PID and print time-since-epoch with (distorted) microsecond resolution:
+##### Slow the target PID and print time-since-epoch with (distorted) microsecond resolution:
 
     $ strace -ttt -p PID
 
-#### Slow the target PID and print syscall durations with (distorted) microsecond resolution:
+##### Slow the target PID and print syscall durations with (distorted) microsecond resolution:
 
     $ strace -T -p PID
 
 Common tasks
 ---
 
-#### Find out which config files a program reads on startup
+##### Find out which config files a program reads on startup
 
     $ strace php 2>&1 | grep php.ini
     $ strace -e open php 2>&1 | grep php.ini
 
-#### Why does this program not open my file?
+##### Why does this program not open my file?
 
     $ strace -e open,access 2>&1 | grep your-filename
 
 Look for an open() or access() syscall that fails
 
-#### What is that process doing RIGHT NOW?
+##### What is that process doing RIGHT NOW?
 
     $ strace -p <pid>
 
-#### What is taking time?
+##### What is taking time?
 
     $ strace -c -p 11084
 
@@ -143,7 +143,7 @@ Sample output could be as follows:
 
 exit with Ctrl+C
 
-#### Why the **** can't I connect to that server?
+##### Why the **** can't I connect to that server?
 
     strace -e poll,select,connect,recvfrom,sendto nc www.drom.ru 80
 
