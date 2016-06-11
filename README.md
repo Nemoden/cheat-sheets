@@ -28,6 +28,7 @@ If you see a lack of something in the cheat sheet, feel free to make your contib
 * [sqlachemy](http://www.sqlalchemy.org/)
 * [docker](https://www.docker.com/)
 * [golang](https://golang.org/)
+* Most common linux administration tasks (working with different utils), will reference `grep`/`find`/`ps`/`dd`/`iptables`/`lsof`/`sysctl` etc. (all for common server setup and troubleshouting)
 
 #### Todo
 
