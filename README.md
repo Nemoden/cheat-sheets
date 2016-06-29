@@ -7,6 +7,7 @@ There are best cheat-sheets I could either create by myself or (most of them) ar
 ## [curl](src/curl.md) and [wget](src/wget.md)
 ## [strace](src/strace.md)
 ## [google chrome](src/google-chrome.md)
+## [find](src/find.md)
 
 #### Contribution
 
@@ -21,7 +22,6 @@ If you see a lack of something in the cheat sheet, feel free to make your contib
 * [vim](http://www.vim.org/)
 * [awk](http://www.gnu.org/software/gawk/manual/gawk.html) (gawk)
 * [grep](https://www.gnu.org/software/grep/) and [ack](http://beyondgrep.com/)
-* [find](https://en.wikipedia.org/wiki/Find)
 * [ps](https://en.wikipedia.org/wiki/Ps_(Unix))
 * [iptables](http://linux.die.net/man/8/iptables)
 * [nginx](http://nginx.org/)
