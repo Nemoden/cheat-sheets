@@ -129,6 +129,10 @@ Force branch deletion
 
     git branch -D <branch>
 
+Delete remote branch
+    
+    git push origin :<branch>
+
 [TOC](#toc)
 
 
