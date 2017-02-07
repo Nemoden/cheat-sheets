@@ -85,6 +85,11 @@ You can add -nocerts to only output the private key or add -nokeys to only outpu
 
     openssl pkcs12 -export -out certificate.pfx -inkey privateKey.key -in certificate.crt -certfile CACert.crt
 
+
+
+
+
+
 # General info on certificates and types
 
 [Source](http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file)
