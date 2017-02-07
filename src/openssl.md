@@ -1,5 +1,7 @@
 # OpenSSL
 
+[Source](https://www.sslshopper.com/article-most-common-openssl-commands.html)
+
 ## General commands
 
 #### Generate a new private key and Certificate Signing Request (csr)
