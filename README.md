@@ -8,6 +8,7 @@ There are best cheat-sheets I could either create by myself or (most of them) ar
 ## [strace](src/strace.md)
 ## [google chrome](src/google-chrome.md)
 ## [find](src/find.md)
+## [openssl basic usage](src/openssl.md)
 
 #### Contribution
 
