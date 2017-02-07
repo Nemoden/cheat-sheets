@@ -43,6 +43,13 @@
 
     openssl pkcs12 -info -in keyStore.p12
 
+#### Check certificate validity through date example
+
+`$ openssl x509 -in someKey.pem -text -noout | grep "Not After" | awk -F: '{$1="";print $0}'`
+
+    Feb 10 08 21 49 2017 GMT
+
+
 ## Debugging using OpenSSL
 
 If you are receiving an error that the private doesn't match the certificate or that a certificate that you installed to a site is not trusted, try one of these commands. If you are trying to verify that an SSL certificate is installed correctly, be sure to check out the [SSL Checker](https://www.sslshopper.com/ssl-checker.html).
