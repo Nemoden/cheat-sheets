@@ -172,6 +172,23 @@ Bash also has some handy features that use the ! (bang) to allow you to do some 
 </tr>
 </table>
 
+
+### Bash special variables
+
+| Variable        | Description                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------------------|
+| $1, $2, $3, ... | Positional parameters                                                                                        |
+| $0              | Name of the shell or shell script.                                                                           |
+| "$@"            | Array-like construct of all positional parameters, {$1, $2, $3 ...}                                          |
+| "$*"            | IFS expansion of all positional parameters, $1 $2 $3 ....                                                    |
+| $#              | Number of positional parameters.                                                                             |
+| $-              | Current options set for the shell.                                                                           |
+| $$              | PID of the current shell (not subshell).                                                                     |
+| $_              | Most recent parameter (or the abs path of the command to start the current shell immediately after startup). |
+| $IFS            | (input) field separator.                                                                                     |
+| $?              | Most recent foreground pipeline exit status.                                                                 |
+| $!              | PID of the most recent background command.                                                                   |
+
 ## Recent links
 * [Bash Shortcuts For Maximum Productivity](http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/)
 * [Syntax Bashkeyboard](http://ss64.com/osx/syntax-bashkeyboard.html)
