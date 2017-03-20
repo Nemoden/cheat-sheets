@@ -189,9 +189,9 @@ Bash also has some handy features that use the ! (bang) to allow you to do some 
 | $?              | Most recent foreground pipeline exit status.                                                                 |
 | $!              | PID of the most recent background command.                                                                   |
 
-[Special Parameters](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html)
-[Shell Variables](https://www.gnu.org/software/bash/manual/html_node/Shell-Variables.html)
-[Parameter and Variable Index](https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html)
+* [Special Parameters](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html)
+* [Shell Variables](https://www.gnu.org/software/bash/manual/html_node/Shell-Variables.html)
+* [Parameter and Variable Index](https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html)
 
 ## Recent links
 * [Bash Shortcuts For Maximum Productivity](http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/)
