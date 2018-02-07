@@ -1,4 +1,4 @@
-Gathering running Linux instance info
+Gathering running Linux instance's info
 ===
 
 In order to find out most information about Linux instance one can use wide variety of command and tools, this cheat-sheet is my compilation of what you can do to discover a Linux instance you eigher `ssh'ed` to or using as your workspace.
