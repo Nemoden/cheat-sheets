@@ -3,7 +3,7 @@
 ## Initialize a Repository for git-flow
 
     git flow init -d
-    
+
 (Omit `-d` if you want to select values other than the defaults.)
 
 ## Features
@@ -23,7 +23,7 @@ Push a feature branch to remote repository:
 Get a feature published by another user from remote repository:
 
     git flow feature pull origin FEATURENAME
-    
+
 ### Finish a Feature
 
 This merges the feature into `develop`, removes the feature branch, and switches to `develop`:
@@ -41,7 +41,7 @@ Create release branch from `develop`:
 Publish release branch:
 
     git flow release publish RELEASENAME
-    
+
 Create a local tracking branch for a remote release:
 
     git flow release track RELEASENAME

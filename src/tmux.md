@@ -6,50 +6,50 @@ or ESC key
 
 ## Windows
 
-| command | description |
-|---------|-------------|
-| c       | Create a new window.
-| &       | Kill the current window.
-| n       | Change to the next window.
-| p       | Change to the previous window.
-| ,       | Rename the current window.
-| l       | Move to the previously selected window.
-| w       | Choose the current window interactively.
-| M-n     | Move to the next window with a bell or activity marker.
-| M-p     | Move to the previous window with a bell or activity marker.
+| command | description                                                 |
+|---------|-------------------------------------------------------------|
+| c       | Create a new window.                                        |
+| &       | Kill the current window.                                    |
+| n       | Change to the next window.                                  |
+| p       | Change to the previous window.                              |
+| ,       | Rename the current window.                                  |
+| l       | Move to the previously selected window.                     |
+| w       | Choose the current window interactively.                    |
+| M-n     | Move to the next window with a bell or activity marker.     |
+| M-p     | Move to the previous window with a bell or activity marker. |
 
 ## Panes
 
-| command | description |
-|---------|------------ |
-| "       | Split the current pane into two, top and bottom.
-| %       | Split the current pane into two, left and right.
-| x       | Kill the current pane.
-| ;       | Move to the previously active pane.
-| o       | Select the next pane in the current window.
-| !       | Break the current pane out of the window.
-| q       | Briefly display pane indexes.
+| command | description                                      |
+|---------|--------------------------------------------------|
+| "       | Split the current pane into two, top and bottom. |
+| %       | Split the current pane into two, left and right. |
+| x       | Kill the current pane.                           |
+| ;       | Move to the previously active pane.              |
+| o       | Select the next pane in the current window.}     |
+| !       | Break the current pane out of the window.        |
+| q       | Briefly display pane indexes.                    |
 
 ## Other
 
-| command | description |
-|---------|-------------|
-| d       | Detach the current client.
-| $       | Rename the current session.
-| [       | Enter copy mode to copy text or view the history.
-| f       | Prompt to search for text in open windows.
-| r       | Force redraw of the attached client.
-| L       | Switch the attached client back to the last session.
-| $       | Rename Current Session
-| :       | Enter the tmux command prompt
-| ?       | List all key bindings
-| f       | Search window titles and goto that window
-| i       | Briefly display window information
-| r       | Force redraw of the attached client.
-| s       | Select a new session for the attached client interactively.
-| t       | Show the time.
-| =       | Choose which buffer to paste interactively from a list.
-| ]       | Paste the most recently copied buffer of text.
+| command | description                                                 |
+|---------|-------------------------------------------------------------|
+| d       | Detach the current client.                                  |
+| $       | Rename the current session.                                 |
+| [       | Enter copy mode to copy text or view the history.           |
+| f       | Prompt to search for text in open windows.                  |
+| r       | Force redraw of the attached client.                        |
+| L       | Switch the attached client back to the last session.        |
+| $       | Rename Current Session                                      |
+| :       | Enter the tmux command prompt                               |
+| ?       | List all key bindings                                       |
+| f       | Search window titles and goto that window                   |
+| i       | Briefly display window information                          |
+| r       | Force redraw of the attached client.                        |
+| s       | Select a new session for the attached client interactively. |
+| t       | Show the time.                                              |
+| =       | Choose which buffer to paste interactively from a list.     |
+| ]       | Paste the most recently copied buffer of text.              |
 
 ## Create a new session
 
@@ -79,7 +79,7 @@ Any of these commands will work.
 tmux ls
 tmux list-sessions
 ```
-    
+
 ## How to copy and paste
 
 1. Enter copy-mode `C-b [`
