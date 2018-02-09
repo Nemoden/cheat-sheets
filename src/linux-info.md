@@ -330,3 +330,17 @@ $ service --status-all
 ```
 
 Legend: `+` - service is on, `-` - service is off, `?` - unknown status
+
+## Network information
+
+To find out configuration
+
+```
+ifconfig
+```
+
+To find out hosts which are "seen" from current machine
+
+```
+arp -a
+```
