@@ -66,9 +66,9 @@ tmux new-session
 Any of these commands will work.
 
 ```bash
-tmux at
-tmux attach
-tmux attach-session
+tmux at [-t session-name]
+tmux attach [-t session-name]
+tmux attach-session [-t session-name]
 ```
 
 ## List sessions
@@ -79,6 +79,14 @@ Any of these commands will work.
 tmux ls
 tmux list-sessions
 ```
+
+## Re-arranging panes
+
+[Following ansers on stackoverflow.com](https://unix.stackexchange.com/questions/124310/how-to-add-a-horizontal-split-to-tmux-window-that-spans-the-whole-width-of-the-p)
+
+General workflow:
+
+`Ctrl+b`, `Alt+[N]` where `N` is 1-5 meaning even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled.
 
 ## How to copy and paste
 
