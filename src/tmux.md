@@ -95,6 +95,10 @@ General workflow:
 3. Press `Enter`
 4. Back at the command prompt, press `C-b ]` and the text you selected is pasted
 
+To be able to copy to system clipboard in iTerm2 go to the preferences (`Cmd + ,`), -> General -> Selection -> check the box "Applications in terminal may access clipboard".
+
+Reference: [Everything you need to know about Tmux copy paste](http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting/)
+
 ## References
 
 * http://www.openbsd.org/cgi-bin/man.cgi?query=tmux&sektion=1#KEY+BINDINGS
