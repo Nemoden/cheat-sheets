@@ -102,3 +102,7 @@ Reference: [Everything you need to know about Tmux copy paste](http://www.rushia
 ## References
 
 * http://www.openbsd.org/cgi-bin/man.cgi?query=tmux&sektion=1#KEY+BINDINGS
+
+## TMUX.conf
+
+There are many things available for tweaking, there are many tmux config files available on github, I personally use my own which I've compiled from different sources: https://github.com/Nemoden/dotfiles/blob/master/.tmux.conf
