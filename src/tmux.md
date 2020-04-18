@@ -1,6 +1,8 @@
 tmux
 ====
 
+Free tmux book: [The Tao of tmux](https://leanpub.com/the-tao-of-tmux/read) is free, btw.
+
 `ctrl + b` is default to enter before you enter the commands. `M` = Left Alt key
 or ESC key
 
