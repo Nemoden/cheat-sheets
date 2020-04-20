@@ -61,6 +61,7 @@ Any of these will work.
 tmux
 tmux new
 tmux new-session
+tmux new -s session_name
 ```
 
 ## Reattach to a session
@@ -71,6 +72,7 @@ Any of these commands will work.
 tmux at [-t session-name]
 tmux attach [-t session-name]
 tmux attach-session [-t session-name]
+tmux -L # attach to previous session
 ```
 
 ## List sessions
