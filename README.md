@@ -1,4 +1,5 @@
 There are best cheat-sheets I could either create by myself or (most of them) are taken from somewhere.
+Here is a good source of high quality [cheat sheets](https://devhints.io/)
 
 ## [bash and zsh](src/bash-zsh.md)
 ## [unix screen](src/screen.md) and [tmux](src/tmux.md)
